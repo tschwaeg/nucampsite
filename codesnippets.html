@@ -1,0 +1,44 @@
+
+<!--tooltip code-->
+<div class="col-md-4 col-xl-2 mt-4">
+    <a href="#reserveForm" role="button" class="btn btn-info btn-lg text-nowrap" data-toggle="tooltip" data-html="true" data-placement="left" title="Or call us at <br /> 1-206-555-1234">Reserve Campsite</a>
+</div>
+
+<!--Form within a card-->
+<div class="row row-content">
+    <div class="col-sm-6 mx-auto">
+        <div class="card">
+            <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+            <div class ="card-body">
+                <form id="reserveForm">
+                    <div class="form-group row">
+                        <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                        <div class="col">
+                            <select name="numCampers" id="numCampers" class="form-control">
+                                <option>Select...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="date" class="col-sm-6 col-form-label">Date</label>
+                        <div class="col-sm-6">
+                            <input type="date" id="date" name="date" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="submit" value="Cancel" class="btn btn-secondary" data-dismiss="modal" />
+                            <input type="submit" value="Search" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
