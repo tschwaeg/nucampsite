@@ -153,7 +153,6 @@
     </div>
 
     <div class="container">
-
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -200,7 +199,9 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    
+    <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discover & Review</h2>
@@ -286,22 +287,7 @@
         })
     </script>
 
-    <script>
-        $(function() {
-            $(".carousel").carousel( { interval: 2000 } );
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselButton").children("i").removeClass("fa-pause");
-                    $("#carouselButton").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselButton").children("i").removeClass("fa-play");
-                    $("#carouselButton").children("i").addClass("fa-pause");
-                }
-            });
-        });
-    </script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
